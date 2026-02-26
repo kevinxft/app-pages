@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>App Pages</title>
+  <meta name="description" content="Privacy policies, support pages, and marketing pages for our apps." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Syne:wght@600;700&display=swap"
+    rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f3f7f4;
+      --surface: #ffffff;
+      --ink: #13211b;
+      --muted: #56635e;
+      --line: #d8e3dc;
+      --accent: #17785e;
+      --accent2: #205d87;
+      --radius: 18px;
+      --shadow: 0 16px 36px rgba(19, 33, 27, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      font-family: "Manrope", "Avenir Next", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% -10%, rgba(32, 93, 135, 0.18), transparent 42%),
+        radial-gradient(circle at 90% 0%, rgba(23, 120, 94, 0.18), transparent 40%),
+        var(--bg);
+      line-height: 1.65;
+    }
+
+    .wrap {
+      width: min(860px, 100%);
+      padding: 26px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.92));
+      border: 1px solid var(--line);
+      border-radius: calc(var(--radius) + 4px);
+      box-shadow: var(--shadow);
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      background: #fafdff;
+    }
+
+    h1,
+    h2 {
+      margin: 0;
+      font-family: "Syne", "Avenir Next", sans-serif;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+    }
+
+    h1 {
+      margin-top: 10px;
+      font-size: clamp(2rem, 4vw, 3rem);
+    }
+
+    h2 {
+      font-size: clamp(1.1rem, 2vw, 1.3rem);
+    }
+
+    .desc {
+      margin: 12px 0 0;
+      color: var(--muted);
+      max-width: 60ch;
+    }
+
+    .apps {
+      margin-top: 24px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .app-card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 20px;
+      background: var(--surface);
+    }
+
+    .app-card h2 {
+      margin-bottom: 4px;
+    }
+
+    .app-card .sub {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .links {
+      margin-top: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .links a {
+      display: inline-block;
+      padding: 8px 14px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.92rem;
+      color: var(--accent);
+      background: #fafdff;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .links a:hover {
+      transform: translateY(-2px);
+      background: #eef7f3;
+    }
+
+    footer {
+      margin-top: 22px;
+      padding-top: 12px;
+      border-top: 1px dashed var(--line);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 3px;
+    }
+
+    @media (max-width: 760px) {
+      body {
+        padding: 10px;
+      }
+
+      .wrap {
+        padding: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+    <span class="tag">App Pages</span>
+    <h1>Our Apps</h1>
+    <p class="desc">Privacy policies, support pages, and marketing pages for our apps.</p>
+
+    <section class="apps">
+      <article class="app-card">
+        <h2>KeyLaunch</h2>
+        <p class="sub">A fast, minimal keyboard launcher for macOS.</p>
+        <div class="links">
+          <a href="key-launch/privacy/">Privacy Policy</a>
+          <a href="key-launch/support/">Support</a>
+          <a href="key-launch/marketing/">Marketing</a>
+        </div>
+      </article>
+
+      <article class="app-card">
+        <h2>Baking Note</h2>
+        <p class="sub">A recipe management app for baking enthusiasts.</p>
+        <div class="links">
+          <a href="baking-note/privacy/">Privacy Policy</a>
+          <a href="baking-note/support/">Support</a>
+          <a href="baking-note/marketing/">Marketing</a>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <a href="mailto:kevinxft@gmail.com">kevinxft@gmail.com</a>
+    </footer>
+  </main>
+</body>
+
+</html>

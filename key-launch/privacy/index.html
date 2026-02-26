@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KeyLaunch Privacy Policy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Syne:wght@600;700&display=swap"
+    rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f3f7f4;
+      --surface: #ffffff;
+      --ink: #13211b;
+      --muted: #56635e;
+      --line: #d8e3dc;
+      --accent: #17785e;
+      --radius: 18px;
+      --shadow: 0 16px 36px rgba(19, 33, 27, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      min-height: 100%;
+    }
+
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      overflow: hidden;
+      min-height: 100vh;
+      font-family: "Manrope", "Avenir Next", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% -10%, rgba(32, 93, 135, 0.14), transparent 42%),
+        radial-gradient(circle at 90% 0%, rgba(23, 120, 94, 0.14), transparent 40%),
+        var(--bg);
+      line-height: 1.58;
+    }
+
+    main {
+      width: min(900px, 100%);
+      margin: 0;
+      padding: 20px;
+      max-height: calc(100vh - 32px);
+      border: 1px solid var(--line);
+      border-radius: calc(var(--radius) + 4px);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.92));
+      box-shadow: var(--shadow);
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      font-size: 12px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      background: #fafdff;
+    }
+
+    h1,
+    h2 {
+      margin: 0;
+      font-family: "Syne", "Avenir Next", sans-serif;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+    }
+
+    h1 {
+      margin-top: 10px;
+      font-size: clamp(1.9rem, 4vw, 2.8rem);
+    }
+
+    h2 {
+      margin-top: 14px;
+      font-size: clamp(1rem, 2vw, 1.2rem);
+    }
+
+    p,
+    li {
+      color: var(--muted);
+      margin: 6px 0 0;
+    }
+
+    ul {
+      margin: 4px 0 0;
+      padding-left: 20px;
+    }
+
+    .meta {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .links {
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px dashed var(--line);
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .cards {
+      margin-top: 12px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 10px 12px;
+      background: var(--surface);
+    }
+
+    .card h2 {
+      margin-top: 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 3px;
+    }
+
+    @media (max-width: 760px) {
+      body {
+        padding: 10px;
+      }
+
+      main {
+        padding: 16px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <span class="tag">KeyLaunch</span>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective date: February 23, 2026</p>
+
+    <p>KeyLaunch ("the App") does not collect any personal information from users.</p>
+
+    <section class="cards" aria-label="Privacy highlights">
+      <article class="card">
+        <h2>No Data Collection</h2>
+        <p>No account sign-in, analytics SDKs, ads SDKs, or tracking technologies are used.</p>
+      </article>
+      <article class="card">
+        <h2>Local-Only Behavior</h2>
+        <p>Shortcut settings stay on your Mac. We do not upload your data to external servers.</p>
+      </article>
+      <article class="card">
+        <h2>No Data Sharing</h2>
+        <p>We do not sell, share, or disclose user data to third parties.</p>
+      </article>
+      <article class="card">
+        <h2>Contact</h2>
+        <p>Questions about privacy: <a href="mailto:kevinxft@gmail.com">kevinxft@gmail.com</a></p>
+      </article>
+    </section>
+
+    <div class="links">
+      <a href="../marketing/">Marketing Page</a>
+      <a href="../support/">Back to Support</a>
+      <a href="mailto:kevinxft@gmail.com?subject=KeyLaunch%20Privacy%20Question">Email Us</a>
+    </div>
+  </main>
+</body>
+
+</html>

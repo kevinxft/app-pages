@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KeyLaunch Support</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Syne:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f3f7f4;
+      --surface: #ffffff;
+      --ink: #13211b;
+      --muted: #56635e;
+      --line: #d8e3dc;
+      --accent: #17785e;
+      --accent2: #205d87;
+      --radius: 18px;
+      --shadow: 0 16px 36px rgba(19, 33, 27, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      overflow: hidden;
+      font-family: "Manrope", "Avenir Next", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% -10%, rgba(32, 93, 135, 0.18), transparent 42%),
+        radial-gradient(circle at 90% 0%, rgba(23, 120, 94, 0.18), transparent 40%),
+        var(--bg);
+      line-height: 1.65;
+    }
+
+    .wrap {
+      width: min(860px, 100%);
+      margin: 0;
+      padding: 26px;
+      max-height: calc(100vh - 32px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.92));
+      border: 1px solid var(--line);
+      border-radius: calc(var(--radius) + 4px);
+      box-shadow: var(--shadow);
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      background: #fafdff;
+    }
+
+    h1, h2 {
+      margin: 0;
+      font-family: "Syne", "Avenir Next", sans-serif;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+    }
+
+    h1 {
+      margin-top: 10px;
+      font-size: clamp(2rem, 4vw, 3rem);
+    }
+
+    h2 {
+      font-size: clamp(1.2rem, 2.2vw, 1.5rem);
+      margin-bottom: 10px;
+    }
+
+    .desc {
+      margin: 12px 0 0;
+      color: var(--muted);
+      max-width: 60ch;
+    }
+
+    .grid {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 20px;
+      background: var(--surface);
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 10px 15px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 700;
+      background: linear-gradient(120deg, var(--accent), var(--accent2));
+      transition: transform .2s ease, filter .2s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.05);
+    }
+
+    .muted { color: var(--muted); margin: 0; }
+
+    .faq {
+      margin-top: 22px;
+      border-top: 1px solid var(--line);
+      padding-top: 14px;
+    }
+
+    details {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px 14px;
+      background: #fff;
+      margin-top: 10px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 700;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    details p {
+      margin: 8px 0 0;
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 22px;
+      padding-top: 12px;
+      border-top: 1px dashed var(--line);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 760px) {
+      body { padding: 10px; }
+      .wrap { padding: 16px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <span class="tag">macOS App Support</span>
+    <h1>KeyLaunch Support</h1>
+    <p class="desc">KeyLaunch is a macOS keyboard app launcher. If you need help, send us an email and include your macOS version for faster troubleshooting.</p>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Contact</h2>
+        <p class="muted">Need help or want to report a bug?</p>
+        <a class="button" href="mailto:kevinxft@gmail.com?subject=KeyLaunch%20Support">Email Support</a>
+      </article>
+      <article class="card">
+        <h2>Quick Check</h2>
+        <p class="muted">If shortcut is not working, check hotkey conflicts and confirm hotkeys are not paused.</p>
+      </article>
+    </section>
+
+    <section class="faq" aria-label="Frequently asked questions">
+      <h2>FAQ</h2>
+      <details open>
+        <summary>How do I set a shortcut?</summary>
+        <p>Open KeyLaunch, click a key, choose an app, then save.</p>
+      </details>
+      <details>
+        <summary>Shortcut not working?</summary>
+        <p>Check hotkey conflicts and make sure hotkeys are not paused.</p>
+      </details>
+    </section>
+
+    <footer>
+      KeyLaunch Support · <a href="../marketing/">Marketing</a> · <a href="../privacy/">Privacy Policy</a> · <a href="mailto:kevinxft@gmail.com">kevinxft@gmail.com</a>
+    </footer>
+  </main>
+</body>
+</html>
