@@ -1,12 +1,14 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>KeyLaunch Support</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Syne:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Syne:wght@600;700&display=swap"
+    rel="stylesheet" />
   <style>
     :root {
       --bg: #f3f7f4;
@@ -20,7 +22,9 @@
       --shadow: 0 16px 36px rgba(19, 33, 27, 0.12);
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
     body {
       margin: 0;
@@ -65,7 +69,8 @@
       background: #fafdff;
     }
 
-    h1, h2 {
+    h1,
+    h2 {
       margin: 0;
       font-family: "Syne", "Avenir Next", sans-serif;
       line-height: 1.15;
@@ -119,7 +124,10 @@
       filter: brightness(1.05);
     }
 
-    .muted { color: var(--muted); margin: 0; }
+    .muted {
+      color: var(--muted);
+      margin: 0;
+    }
 
     .faq {
       margin-top: 22px;
@@ -141,7 +149,9 @@
       list-style: none;
     }
 
-    summary::-webkit-details-marker { display: none; }
+    summary::-webkit-details-marker {
+      display: none;
+    }
 
     details p {
       margin: 8px 0 0;
@@ -156,46 +166,69 @@
       font-size: 0.95rem;
     }
 
+    footer a {
+      color: var(--accent);
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 3px;
+    }
+
     @media (max-width: 760px) {
-      body { padding: 10px; }
-      .wrap { padding: 16px; }
-      .grid { grid-template-columns: 1fr; }
+      body {
+        padding: 10px;
+      }
+
+      .wrap {
+        padding: 16px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
+
 <body>
   <main class="wrap">
-    <span class="tag">macOS App Support</span>
-    <h1>KeyLaunch Support</h1>
-    <p class="desc">KeyLaunch is a macOS keyboard app launcher. If you need help, send us an email and include your macOS version for faster troubleshooting.</p>
+    <span class="tag" data-i18n="keylaunch.support.tag">macOS App Support</span>
+    <h1 data-i18n="keylaunch.support.title">KeyLaunch Support</h1>
+    <p class="desc" data-i18n="keylaunch.support.desc">KeyLaunch is a macOS keyboard app launcher. If you need help,
+      send us an email and include your macOS version for faster troubleshooting.</p>
 
     <section class="grid">
       <article class="card">
-        <h2>Contact</h2>
-        <p class="muted">Need help or want to report a bug?</p>
-        <a class="button" href="mailto:kevinxft@gmail.com?subject=KeyLaunch%20Support">Email Support</a>
+        <h2 data-i18n="keylaunch.support.contact_title">Contact</h2>
+        <p class="muted" data-i18n="keylaunch.support.contact_desc">Need help or want to report a bug?</p>
+        <a class="button" href="mailto:kevinxft@gmail.com?subject=KeyLaunch%20Support"
+          data-i18n="keylaunch.support.email_btn">Email Support</a>
       </article>
       <article class="card">
-        <h2>Quick Check</h2>
-        <p class="muted">If shortcut is not working, check hotkey conflicts and confirm hotkeys are not paused.</p>
+        <h2 data-i18n="keylaunch.support.quick_check_title">Quick Check</h2>
+        <p class="muted" data-i18n="keylaunch.support.quick_check_desc">If shortcut is not working, check hotkey
+          conflicts and confirm hotkeys are not paused.</p>
       </article>
     </section>
 
     <section class="faq" aria-label="Frequently asked questions">
-      <h2>FAQ</h2>
+      <h2 data-i18n="keylaunch.support.faq_title">FAQ</h2>
       <details open>
-        <summary>How do I set a shortcut?</summary>
-        <p>Open KeyLaunch, click a key, choose an app, then save.</p>
+        <summary data-i18n="keylaunch.support.faq_q1">How do I set a shortcut?</summary>
+        <p data-i18n="keylaunch.support.faq_a1">Open KeyLaunch, click a key, choose an app, then save.</p>
       </details>
       <details>
-        <summary>Shortcut not working?</summary>
-        <p>Check hotkey conflicts and make sure hotkeys are not paused.</p>
+        <summary data-i18n="keylaunch.support.faq_q2">Shortcut not working?</summary>
+        <p data-i18n="keylaunch.support.faq_a2">Check hotkey conflicts and make sure hotkeys are not paused.</p>
       </details>
     </section>
 
     <footer>
-      KeyLaunch Support · <a href="../marketing/">Marketing</a> · <a href="../privacy/">Privacy Policy</a> · <a href="mailto:kevinxft@gmail.com">kevinxft@gmail.com</a>
+      <span data-i18n="keylaunch.support.footer_label">KeyLaunch Support</span> ·
+      <a href="../marketing/" data-i18n="common.marketing">Marketing</a> ·
+      <a href="../privacy/" data-i18n="common.privacy">Privacy Policy</a> ·
+      <a href="mailto:kevinxft@gmail.com">kevinxft@gmail.com</a>
     </footer>
   </main>
+  <script src="../../shared/js/i18n.js"></script>
 </body>
+
 </html>

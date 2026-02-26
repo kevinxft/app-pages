@@ -1,0 +1,71 @@
+{
+  "common": {
+    "privacy": "Privacy Policy",
+    "support": "Support",
+    "marketing": "Marketing",
+    "copy_link": "Copy link",
+    "email_us": "Email Us",
+    "contact": "Contact"
+  },
+  "home": {
+    "tag": "App Pages",
+    "title": "Our Apps",
+    "desc": "Privacy policies, support pages, and marketing pages for our apps.",
+    "keylaunch_name": "KeyLaunch",
+    "keylaunch_desc": "A fast, minimal keyboard launcher for macOS.",
+    "baking_note_name": "Baking Note",
+    "baking_note_desc": "A recipe management app for baking enthusiasts."
+  },
+  "keylaunch": {
+    "support": {
+      "tag": "macOS App Support",
+      "title": "KeyLaunch Support",
+      "desc": "KeyLaunch is a macOS keyboard app launcher. If you need help, send us an email and include your macOS version for faster troubleshooting.",
+      "contact_title": "Contact",
+      "contact_desc": "Need help or want to report a bug?",
+      "email_btn": "Email Support",
+      "quick_check_title": "Quick Check",
+      "quick_check_desc": "If shortcut is not working, check hotkey conflicts and confirm hotkeys are not paused.",
+      "faq_title": "FAQ",
+      "faq_q1": "How do I set a shortcut?",
+      "faq_a1": "Open KeyLaunch, click a key, choose an app, then save.",
+      "faq_q2": "Shortcut not working?",
+      "faq_a2": "Check hotkey conflicts and make sure hotkeys are not paused.",
+      "footer_label": "KeyLaunch Support"
+    },
+    "marketing": {
+      "pill": "macOS Productivity",
+      "title": "Launch apps in one keystroke.",
+      "lead": "KeyLaunch is a fast, minimal keyboard launcher for macOS. Assign keys to your favorite apps and jump into your workflow instantly.",
+      "download_btn": "Download on the Mac App Store",
+      "help_btn": "Need Help?",
+      "feature1_title": "Instant Launch",
+      "feature1_desc": "Open your most-used apps from the keyboard without hunting through Dock or Spotlight results.",
+      "feature2_title": "Simple Setup",
+      "feature2_desc": "Pick a key, choose an app, save. Your shortcuts are easy to configure and adjust anytime.",
+      "feature3_title": "Built for macOS",
+      "feature3_desc": "Designed specifically for Mac workflows, with a clean interface and low cognitive overhead.",
+      "how_title": "How It Works",
+      "step1": "Open KeyLaunch and select a shortcut key.",
+      "step2": "Assign the key to the app you want.",
+      "step3": "Press the shortcut and launch instantly.",
+      "footer_label": "KeyLaunch"
+    },
+    "privacy": {
+      "tag": "KeyLaunch",
+      "title": "Privacy Policy",
+      "date": "Effective date: February 23, 2026",
+      "intro": "KeyLaunch (\"the App\") does not collect any personal information from users.",
+      "no_collection_title": "No Data Collection",
+      "no_collection_desc": "No account sign-in, analytics SDKs, ads SDKs, or tracking technologies are used.",
+      "local_title": "Local-Only Behavior",
+      "local_desc": "Shortcut settings stay on your Mac. We do not upload your data to external servers.",
+      "no_sharing_title": "No Data Sharing",
+      "no_sharing_desc": "We do not sell, share, or disclose user data to third parties.",
+      "contact_title": "Contact",
+      "contact_desc": "Questions about privacy:",
+      "marketing_link": "Marketing Page",
+      "support_link": "Back to Support"
+    }
+  }
+}

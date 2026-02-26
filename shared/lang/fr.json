@@ -1,0 +1,71 @@
+{
+  "common": {
+    "privacy": "Politique de Confidentialité",
+    "support": "Support",
+    "marketing": "Produit",
+    "copy_link": "Copier le lien",
+    "email_us": "Nous contacter",
+    "contact": "Contact"
+  },
+  "home": {
+    "tag": "Pages d'Apps",
+    "title": "Nos Apps",
+    "desc": "Politiques de confidentialité, pages de support et de présentation de nos apps.",
+    "keylaunch_name": "KeyLaunch",
+    "keylaunch_desc": "Un lanceur clavier rapide et minimaliste pour macOS.",
+    "baking_note_name": "Baking Note",
+    "baking_note_desc": "Une app de gestion de recettes pour les passionnés de pâtisserie."
+  },
+  "keylaunch": {
+    "support": {
+      "tag": "Support App macOS",
+      "title": "Support KeyLaunch",
+      "desc": "KeyLaunch est un lanceur d'apps clavier pour macOS. Si vous avez besoin d'aide, envoyez-nous un email avec votre version de macOS.",
+      "contact_title": "Contact",
+      "contact_desc": "Besoin d'aide ou signaler un bug ?",
+      "email_btn": "Support par Email",
+      "quick_check_title": "Vérification Rapide",
+      "quick_check_desc": "Si le raccourci ne fonctionne pas, vérifiez les conflits de touches et confirmez qu'ils ne sont pas en pause.",
+      "faq_title": "FAQ",
+      "faq_q1": "Comment configurer un raccourci ?",
+      "faq_a1": "Ouvrez KeyLaunch, cliquez sur une touche, choisissez une app, puis enregistrez.",
+      "faq_q2": "Le raccourci ne fonctionne pas ?",
+      "faq_a2": "Vérifiez les conflits de touches et assurez-vous qu'ils ne sont pas en pause.",
+      "footer_label": "Support KeyLaunch"
+    },
+    "marketing": {
+      "pill": "Productivité macOS",
+      "title": "Lancez vos apps en une touche.",
+      "lead": "KeyLaunch est un lanceur clavier rapide et minimaliste pour macOS. Assignez des touches à vos apps favorites et entrez dans votre flux de travail instantanément.",
+      "download_btn": "Télécharger sur le Mac App Store",
+      "help_btn": "Besoin d'aide ?",
+      "feature1_title": "Lancement Instantané",
+      "feature1_desc": "Ouvrez vos apps les plus utilisées depuis le clavier sans chercher dans le Dock ou Spotlight.",
+      "feature2_title": "Configuration Simple",
+      "feature2_desc": "Choisissez une touche, sélectionnez une app, enregistrez. Facile à configurer et à ajuster.",
+      "feature3_title": "Conçu pour macOS",
+      "feature3_desc": "Conçu spécifiquement pour les flux de travail Mac, avec une interface épurée.",
+      "how_title": "Comment ça marche",
+      "step1": "Ouvrez KeyLaunch et sélectionnez une touche de raccourci.",
+      "step2": "Assignez la touche à l'app souhaitée.",
+      "step3": "Appuyez sur le raccourci et lancez instantanément.",
+      "footer_label": "KeyLaunch"
+    },
+    "privacy": {
+      "tag": "KeyLaunch",
+      "title": "Politique de Confidentialité",
+      "date": "Date d'effet : 23 février 2026",
+      "intro": "KeyLaunch (« l'App ») ne collecte aucune information personnelle des utilisateurs.",
+      "no_collection_title": "Aucune Collecte de Données",
+      "no_collection_desc": "Aucune connexion de compte, SDK d'analyse, SDK publicitaire ou technologie de suivi n'est utilisée.",
+      "local_title": "Local Uniquement",
+      "local_desc": "Les paramètres de raccourcis restent sur votre Mac. Nous ne téléchargeons pas vos données vers des serveurs externes.",
+      "no_sharing_title": "Aucun Partage de Données",
+      "no_sharing_desc": "Nous ne vendons, ne partageons ni ne divulguons les données utilisateur à des tiers.",
+      "contact_title": "Contact",
+      "contact_desc": "Questions sur la confidentialité :",
+      "marketing_link": "Page Produit",
+      "support_link": "Retour au Support"
+    }
+  }
+}

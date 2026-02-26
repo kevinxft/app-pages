@@ -1,0 +1,71 @@
+{
+  "common": {
+    "privacy": "プライバシーポリシー",
+    "support": "サポート",
+    "marketing": "製品紹介",
+    "copy_link": "リンクをコピー",
+    "email_us": "メールする",
+    "contact": "お問い合わせ"
+  },
+  "home": {
+    "tag": "アプリページ",
+    "title": "アプリ一覧",
+    "desc": "各アプリのプライバシーポリシー、サポート、製品紹介ページです。",
+    "keylaunch_name": "KeyLaunch",
+    "keylaunch_desc": "macOS 向けの高速キーボードランチャー。",
+    "baking_note_name": "Baking Note",
+    "baking_note_desc": "お菓子作り愛好家のためのレシピ管理アプリ。"
+  },
+  "keylaunch": {
+    "support": {
+      "tag": "macOS アプリサポート",
+      "title": "KeyLaunch サポート",
+      "desc": "KeyLaunch は macOS 用キーボードアプリランチャーです。お困りの場合は、macOS のバージョンを添えてメールでご連絡ください。",
+      "contact_title": "お問い合わせ",
+      "contact_desc": "ヘルプやバグ報告はこちら。",
+      "email_btn": "メールサポート",
+      "quick_check_title": "クイックチェック",
+      "quick_check_desc": "ショートカットが動作しない場合は、ホットキーの競合を確認し、一時停止されていないかご確認ください。",
+      "faq_title": "よくある質問",
+      "faq_q1": "ショートカットの設定方法は？",
+      "faq_a1": "KeyLaunch を開き、キーをクリックし、アプリを選択して保存します。",
+      "faq_q2": "ショートカットが動作しない？",
+      "faq_a2": "ホットキーの競合を確認し、一時停止されていないかご確認ください。",
+      "footer_label": "KeyLaunch サポート"
+    },
+    "marketing": {
+      "pill": "macOS 生産性ツール",
+      "title": "ワンキーでアプリを起動。",
+      "lead": "KeyLaunch は macOS 向けの高速キーボードランチャーです。よく使うアプリにキーを割り当て、瞬時にワークフローに入りましょう。",
+      "download_btn": "Mac App Store でダウンロード",
+      "help_btn": "ヘルプ",
+      "feature1_title": "即時起動",
+      "feature1_desc": "Dock や Spotlight を探すことなく、キーボードからよく使うアプリを開けます。",
+      "feature2_title": "簡単セットアップ",
+      "feature2_desc": "キーを選び、アプリを選び、保存。ショートカットの設定・変更はいつでも簡単。",
+      "feature3_title": "macOS 専用設計",
+      "feature3_desc": "Mac のワークフローに特化した、シンプルで使いやすいインターフェース。",
+      "how_title": "使い方",
+      "step1": "KeyLaunch を開き、ショートカットキーを選択。",
+      "step2": "キーに起動したいアプリを割り当て。",
+      "step3": "ショートカットを押して即座に起動。",
+      "footer_label": "KeyLaunch"
+    },
+    "privacy": {
+      "tag": "KeyLaunch",
+      "title": "プライバシーポリシー",
+      "date": "発効日：2026年2月23日",
+      "intro": "KeyLaunch（以下「本アプリ」）は、ユーザーの個人情報を一切収集しません。",
+      "no_collection_title": "データ収集なし",
+      "no_collection_desc": "アカウントログイン、分析SDK、広告SDK、トラッキング技術は一切使用していません。",
+      "local_title": "ローカルのみ",
+      "local_desc": "ショートカット設定はお使いの Mac にのみ保存されます。外部サーバーにデータをアップロードすることはありません。",
+      "no_sharing_title": "データ共有なし",
+      "no_sharing_desc": "ユーザーデータを第三者に販売、共有、開示することはありません。",
+      "contact_title": "お問い合わせ",
+      "contact_desc": "プライバシーに関するご質問：",
+      "marketing_link": "製品紹介",
+      "support_link": "サポートに戻る"
+    }
+  }
+}

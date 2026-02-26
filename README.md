@@ -27,6 +27,15 @@ Deployed via **GitHub Pages** at:
 
 `https://kevinxft.github.io/app-pages/`
 
+## Links
+
+| App | Page | URL |
+|-----|------|-----|
+| - | Home | https://kevinxft.github.io/app-pages/ |
+| KeyLaunch | Privacy Policy | https://kevinxft.github.io/app-pages/key-launch/privacy/ |
+| KeyLaunch | Support | https://kevinxft.github.io/app-pages/key-launch/support/ |
+| KeyLaunch | Marketing | https://kevinxft.github.io/app-pages/key-launch/marketing/ |
+
 ## Adding a New App
 
 1. Copy an existing app directory

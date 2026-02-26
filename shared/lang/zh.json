@@ -1,0 +1,71 @@
+{
+  "common": {
+    "privacy": "隐私政策",
+    "support": "技术支持",
+    "marketing": "产品介绍",
+    "copy_link": "复制链接",
+    "email_us": "联系我们",
+    "contact": "联系方式"
+  },
+  "home": {
+    "tag": "应用页面",
+    "title": "我们的应用",
+    "desc": "我们应用的隐私政策、技术支持和产品介绍页面。",
+    "keylaunch_name": "KeyLaunch（键启）",
+    "keylaunch_desc": "一款快速、简洁的 macOS 键盘启动器。",
+    "baking_note_name": "烘焙笔记",
+    "baking_note_desc": "为烘焙爱好者打造的食谱管理应用。"
+  },
+  "keylaunch": {
+    "support": {
+      "tag": "macOS 应用支持",
+      "title": "KeyLaunch 技术支持",
+      "desc": "KeyLaunch 是一款 macOS 键盘应用启动器。如需帮助，请发送邮件并注明您的 macOS 版本，以便我们更快地排查问题。",
+      "contact_title": "联系我们",
+      "contact_desc": "需要帮助或想报告问题？",
+      "email_btn": "发送邮件",
+      "quick_check_title": "快速排查",
+      "quick_check_desc": "如果快捷键无法使用，请检查热键冲突并确认热键未被暂停。",
+      "faq_title": "常见问题",
+      "faq_q1": "如何设置快捷键？",
+      "faq_a1": "打开 KeyLaunch，点击一个按键，选择应用，然后保存。",
+      "faq_q2": "快捷键无法使用？",
+      "faq_a2": "请检查热键冲突，并确保热键未被暂停。",
+      "footer_label": "KeyLaunch 技术支持"
+    },
+    "marketing": {
+      "pill": "macOS 效率工具",
+      "title": "一键启动应用。",
+      "lead": "KeyLaunch 是一款快速、简洁的 macOS 键盘启动器。为常用应用分配按键，即刻进入工作流程。",
+      "download_btn": "在 Mac App Store 下载",
+      "help_btn": "需要帮助？",
+      "feature1_title": "即时启动",
+      "feature1_desc": "通过键盘直接打开常用应用，无需翻找 Dock 或搜索 Spotlight。",
+      "feature2_title": "简单设置",
+      "feature2_desc": "选择按键，选择应用，保存。快捷键配置简单，随时可调。",
+      "feature3_title": "专为 macOS 打造",
+      "feature3_desc": "专为 Mac 工作流程设计，界面简洁，认知负担低。",
+      "how_title": "使用方法",
+      "step1": "打开 KeyLaunch，选择一个快捷键。",
+      "step2": "将该键分配给目标应用。",
+      "step3": "按下快捷键，即刻启动。",
+      "footer_label": "KeyLaunch"
+    },
+    "privacy": {
+      "tag": "KeyLaunch",
+      "title": "隐私政策",
+      "date": "生效日期：2026 年 2 月 23 日",
+      "intro": "KeyLaunch（以下简称"本应用"）不会收集任何用户个人信息。",
+      "no_collection_title": "不收集数据",
+      "no_collection_desc": "本应用不使用账户登录、分析 SDK、广告 SDK 或任何追踪技术。",
+      "local_title": "仅限本地",
+      "local_desc": "快捷键设置仅保存在您的 Mac 上，我们不会将您的数据上传至外部服务器。",
+      "no_sharing_title": "不共享数据",
+      "no_sharing_desc": "我们不会向第三方出售、共享或披露用户数据。",
+      "contact_title": "联系方式",
+      "contact_desc": "隐私相关问题：",
+      "marketing_link": "产品介绍",
+      "support_link": "返回技术支持"
+    }
+  }
+}

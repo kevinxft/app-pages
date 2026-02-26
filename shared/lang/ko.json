@@ -1,0 +1,71 @@
+{
+  "common": {
+    "privacy": "개인정보 처리방침",
+    "support": "지원",
+    "marketing": "제품 소개",
+    "copy_link": "링크 복사",
+    "email_us": "이메일 문의",
+    "contact": "문의하기"
+  },
+  "home": {
+    "tag": "앱 페이지",
+    "title": "우리의 앱",
+    "desc": "앱의 개인정보 처리방침, 지원 및 제품 소개 페이지입니다.",
+    "keylaunch_name": "KeyLaunch",
+    "keylaunch_desc": "macOS용 빠르고 간결한 키보드 런처.",
+    "baking_note_name": "Baking Note",
+    "baking_note_desc": "베이킹 애호가를 위한 레시피 관리 앱."
+  },
+  "keylaunch": {
+    "support": {
+      "tag": "macOS 앱 지원",
+      "title": "KeyLaunch 지원",
+      "desc": "KeyLaunch는 macOS 키보드 앱 런처입니다. 도움이 필요하시면 macOS 버전을 포함하여 이메일을 보내주세요.",
+      "contact_title": "문의하기",
+      "contact_desc": "도움이 필요하거나 버그를 신고하고 싶으신가요?",
+      "email_btn": "이메일 지원",
+      "quick_check_title": "빠른 확인",
+      "quick_check_desc": "단축키가 작동하지 않으면 핫키 충돌을 확인하고 핫키가 일시 중지되지 않았는지 확인하세요.",
+      "faq_title": "자주 묻는 질문",
+      "faq_q1": "단축키는 어떻게 설정하나요?",
+      "faq_a1": "KeyLaunch를 열고, 키를 클릭하고, 앱을 선택한 후 저장하세요.",
+      "faq_q2": "단축키가 작동하지 않나요?",
+      "faq_a2": "핫키 충돌을 확인하고 핫키가 일시 중지되지 않았는지 확인하세요.",
+      "footer_label": "KeyLaunch 지원"
+    },
+    "marketing": {
+      "pill": "macOS 생산성 도구",
+      "title": "키 하나로 앱을 실행하세요.",
+      "lead": "KeyLaunch는 macOS용 빠르고 간결한 키보드 런처입니다. 자주 쓰는 앱에 키를 할당하고 즉시 작업을 시작하세요.",
+      "download_btn": "Mac App Store에서 다운로드",
+      "help_btn": "도움이 필요하세요?",
+      "feature1_title": "즉시 실행",
+      "feature1_desc": "Dock이나 Spotlight를 찾을 필요 없이 키보드에서 바로 자주 쓰는 앱을 열 수 있습니다.",
+      "feature2_title": "간편한 설정",
+      "feature2_desc": "키를 선택하고, 앱을 선택하고, 저장. 단축키를 쉽게 설정하고 언제든 변경할 수 있습니다.",
+      "feature3_title": "macOS 전용 설계",
+      "feature3_desc": "Mac 워크플로우에 특화된 깔끔한 인터페이스와 낮은 인지 부하.",
+      "how_title": "사용 방법",
+      "step1": "KeyLaunch를 열고 단축키를 선택하세요.",
+      "step2": "키에 원하는 앱을 할당하세요.",
+      "step3": "단축키를 눌러 즉시 실행하세요.",
+      "footer_label": "KeyLaunch"
+    },
+    "privacy": {
+      "tag": "KeyLaunch",
+      "title": "개인정보 처리방침",
+      "date": "시행일: 2026년 2월 23일",
+      "intro": "KeyLaunch(이하 \"본 앱\")는 사용자의 개인정보를 수집하지 않습니다.",
+      "no_collection_title": "데이터 수집 없음",
+      "no_collection_desc": "계정 로그인, 분석 SDK, 광고 SDK 또는 추적 기술을 사용하지 않습니다.",
+      "local_title": "로컬 전용",
+      "local_desc": "단축키 설정은 Mac에만 저장됩니다. 외부 서버에 데이터를 업로드하지 않습니다.",
+      "no_sharing_title": "데이터 공유 없음",
+      "no_sharing_desc": "사용자 데이터를 제3자에게 판매, 공유 또는 공개하지 않습니다.",
+      "contact_title": "문의하기",
+      "contact_desc": "개인정보 관련 문의:",
+      "marketing_link": "제품 소개",
+      "support_link": "지원으로 돌아가기"
+    }
+  }
+}

@@ -117,22 +117,52 @@
       gap: 8px;
     }
 
-    .links a {
-      display: inline-block;
-      padding: 8px 14px;
+    .link-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 0;
       border: 1px solid var(--line);
       border-radius: 12px;
+      background: #fafdff;
+      overflow: hidden;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .link-item:hover {
+      transform: translateY(-2px);
+      background: #eef7f3;
+    }
+
+    .link-item a {
+      display: inline-block;
+      padding: 8px 12px;
       text-decoration: none;
       font-weight: 600;
       font-size: 0.92rem;
       color: var(--accent);
-      background: #fafdff;
-      transition: transform 0.2s ease, background 0.2s ease;
     }
 
-    .links a:hover {
-      transform: translateY(-2px);
-      background: #eef7f3;
+    .copy-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 10px;
+      border: none;
+      border-left: 1px solid var(--line);
+      background: transparent;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 0.82rem;
+      transition: color 0.2s ease, background 0.2s ease;
+    }
+
+    .copy-btn:hover {
+      color: var(--accent);
+      background: rgba(23, 120, 94, 0.06);
+    }
+
+    .copy-btn.copied {
+      color: var(--accent);
     }
 
     footer {
@@ -163,28 +193,40 @@
 
 <body>
   <main class="wrap">
-    <span class="tag">App Pages</span>
-    <h1>Our Apps</h1>
-    <p class="desc">Privacy policies, support pages, and marketing pages for our apps.</p>
+    <span class="tag" data-i18n="home.tag">App Pages</span>
+    <h1 data-i18n="home.title">Our Apps</h1>
+    <p class="desc" data-i18n="home.desc">Privacy policies, support pages, and marketing pages for our apps.</p>
 
     <section class="apps">
       <article class="app-card">
-        <h2>KeyLaunch</h2>
-        <p class="sub">A fast, minimal keyboard launcher for macOS.</p>
+        <h2 data-i18n="home.keylaunch_name">KeyLaunch</h2>
+        <p class="sub" data-i18n="home.keylaunch_desc">A fast, minimal keyboard launcher for macOS.</p>
         <div class="links">
-          <a href="key-launch/privacy/">Privacy Policy</a>
-          <a href="key-launch/support/">Support</a>
-          <a href="key-launch/marketing/">Marketing</a>
+          <span class="link-item"><a href="key-launch/privacy/" data-i18n="common.privacy">Privacy Policy</a><button
+              class="copy-btn" data-path="key-launch/privacy/" data-i18n-title="common.copy_link"
+              title="Copy link">📋</button></span>
+          <span class="link-item"><a href="key-launch/support/" data-i18n="common.support">Support</a><button
+              class="copy-btn" data-path="key-launch/support/" data-i18n-title="common.copy_link"
+              title="Copy link">📋</button></span>
+          <span class="link-item"><a href="key-launch/marketing/" data-i18n="common.marketing">Marketing</a><button
+              class="copy-btn" data-path="key-launch/marketing/" data-i18n-title="common.copy_link"
+              title="Copy link">📋</button></span>
         </div>
       </article>
 
       <article class="app-card">
-        <h2>Baking Note</h2>
-        <p class="sub">A recipe management app for baking enthusiasts.</p>
+        <h2 data-i18n="home.baking_note_name">Baking Note</h2>
+        <p class="sub" data-i18n="home.baking_note_desc">A recipe management app for baking enthusiasts.</p>
         <div class="links">
-          <a href="baking-note/privacy/">Privacy Policy</a>
-          <a href="baking-note/support/">Support</a>
-          <a href="baking-note/marketing/">Marketing</a>
+          <span class="link-item"><a href="baking-note/privacy/" data-i18n="common.privacy">Privacy Policy</a><button
+              class="copy-btn" data-path="baking-note/privacy/" data-i18n-title="common.copy_link"
+              title="Copy link">📋</button></span>
+          <span class="link-item"><a href="baking-note/support/" data-i18n="common.support">Support</a><button
+              class="copy-btn" data-path="baking-note/support/" data-i18n-title="common.copy_link"
+              title="Copy link">📋</button></span>
+          <span class="link-item"><a href="baking-note/marketing/" data-i18n="common.marketing">Marketing</a><button
+              class="copy-btn" data-path="baking-note/marketing/" data-i18n-title="common.copy_link"
+              title="Copy link">📋</button></span>
         </div>
       </article>
     </section>
@@ -193,6 +235,29 @@
       <a href="mailto:kevinxft@gmail.com">kevinxft@gmail.com</a>
     </footer>
   </main>
+  <script src="shared/js/i18n.js"></script>
+  <script>
+    document.querySelectorAll('.copy-btn').forEach(btn => {
+      btn.addEventListener('click', async (e) => {
+        e.preventDefault();
+        const path = btn.dataset.path;
+        const base = window.location.origin + window.location.pathname.replace(/\/index\.html$/, '/');
+        const url = base + path;
+        try {
+          await navigator.clipboard.writeText(url);
+          btn.textContent = '✅';
+          btn.classList.add('copied');
+          setTimeout(() => {
+            btn.textContent = '📋';
+            btn.classList.remove('copied');
+          }, 1500);
+        } catch {
+          btn.textContent = '❌';
+          setTimeout(() => btn.textContent = '📋', 1500);
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>

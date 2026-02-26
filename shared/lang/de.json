@@ -1,0 +1,71 @@
+{
+  "common": {
+    "privacy": "Datenschutzrichtlinie",
+    "support": "Support",
+    "marketing": "Produkt",
+    "copy_link": "Link kopieren",
+    "email_us": "E-Mail senden",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "tag": "App-Seiten",
+    "title": "Unsere Apps",
+    "desc": "Datenschutzrichtlinien, Support- und Produktseiten für unsere Apps.",
+    "keylaunch_name": "KeyLaunch",
+    "keylaunch_desc": "Ein schneller, minimalistischer Tastatur-Launcher für macOS.",
+    "baking_note_name": "Baking Note",
+    "baking_note_desc": "Eine Rezeptverwaltungs-App für Backbegeisterte."
+  },
+  "keylaunch": {
+    "support": {
+      "tag": "macOS App-Support",
+      "title": "KeyLaunch Support",
+      "desc": "KeyLaunch ist ein Tastatur-App-Launcher für macOS. Falls Sie Hilfe benötigen, senden Sie uns eine E-Mail mit Ihrer macOS-Version.",
+      "contact_title": "Kontakt",
+      "contact_desc": "Brauchen Sie Hilfe oder möchten einen Fehler melden?",
+      "email_btn": "E-Mail-Support",
+      "quick_check_title": "Schnellprüfung",
+      "quick_check_desc": "Wenn die Tastenkombination nicht funktioniert, prüfen Sie Hotkey-Konflikte und bestätigen Sie, dass Hotkeys nicht pausiert sind.",
+      "faq_title": "Häufige Fragen",
+      "faq_q1": "Wie richte ich eine Tastenkombination ein?",
+      "faq_a1": "Öffnen Sie KeyLaunch, klicken Sie auf eine Taste, wählen Sie eine App und speichern Sie.",
+      "faq_q2": "Tastenkombination funktioniert nicht?",
+      "faq_a2": "Prüfen Sie Hotkey-Konflikte und stellen Sie sicher, dass Hotkeys nicht pausiert sind.",
+      "footer_label": "KeyLaunch Support"
+    },
+    "marketing": {
+      "pill": "macOS Produktivität",
+      "title": "Apps mit einem Tastendruck starten.",
+      "lead": "KeyLaunch ist ein schneller, minimalistischer Tastatur-Launcher für macOS. Weisen Sie Ihren Lieblings-Apps Tasten zu und starten Sie sofort in Ihren Workflow.",
+      "download_btn": "Im Mac App Store laden",
+      "help_btn": "Hilfe benötigt?",
+      "feature1_title": "Sofort Starten",
+      "feature1_desc": "Öffnen Sie Ihre meistgenutzten Apps per Tastatur, ohne im Dock oder Spotlight zu suchen.",
+      "feature2_title": "Einfache Einrichtung",
+      "feature2_desc": "Taste wählen, App auswählen, speichern. Einfach zu konfigurieren und jederzeit anpassbar.",
+      "feature3_title": "Für macOS entwickelt",
+      "feature3_desc": "Speziell für Mac-Workflows entwickelt, mit einer klaren Oberfläche und geringer kognitiver Belastung.",
+      "how_title": "So funktioniert's",
+      "step1": "Öffnen Sie KeyLaunch und wählen Sie eine Tastenkombination.",
+      "step2": "Weisen Sie die Taste der gewünschten App zu.",
+      "step3": "Drücken Sie die Tastenkombination und starten Sie sofort.",
+      "footer_label": "KeyLaunch"
+    },
+    "privacy": {
+      "tag": "KeyLaunch",
+      "title": "Datenschutzrichtlinie",
+      "date": "Gültig ab: 23. Februar 2026",
+      "intro": "KeyLaunch (\"die App\") erhebt keinerlei persönliche Daten der Nutzer.",
+      "no_collection_title": "Keine Datenerhebung",
+      "no_collection_desc": "Es werden keine Kontoanmeldung, Analyse-SDKs, Werbe-SDKs oder Tracking-Technologien verwendet.",
+      "local_title": "Nur Lokal",
+      "local_desc": "Tastenkombinationseinstellungen bleiben auf Ihrem Mac. Wir laden Ihre Daten nicht auf externe Server hoch.",
+      "no_sharing_title": "Keine Datenweitergabe",
+      "no_sharing_desc": "Wir verkaufen, teilen oder offenbaren keine Nutzerdaten an Dritte.",
+      "contact_title": "Kontakt",
+      "contact_desc": "Fragen zum Datenschutz:",
+      "marketing_link": "Produktseite",
+      "support_link": "Zurück zum Support"
+    }
+  }
+}

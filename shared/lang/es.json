@@ -1,0 +1,71 @@
+{
+  "common": {
+    "privacy": "Política de Privacidad",
+    "support": "Soporte",
+    "marketing": "Producto",
+    "copy_link": "Copiar enlace",
+    "email_us": "Envíanos un email",
+    "contact": "Contacto"
+  },
+  "home": {
+    "tag": "Páginas de Apps",
+    "title": "Nuestras Apps",
+    "desc": "Políticas de privacidad, soporte y páginas de producto de nuestras apps.",
+    "keylaunch_name": "KeyLaunch",
+    "keylaunch_desc": "Un lanzador de teclado rápido y minimalista para macOS.",
+    "baking_note_name": "Baking Note",
+    "baking_note_desc": "Una app de gestión de recetas para amantes de la repostería."
+  },
+  "keylaunch": {
+    "support": {
+      "tag": "Soporte de App macOS",
+      "title": "Soporte de KeyLaunch",
+      "desc": "KeyLaunch es un lanzador de apps con teclado para macOS. Si necesitas ayuda, envíanos un email con tu versión de macOS.",
+      "contact_title": "Contacto",
+      "contact_desc": "¿Necesitas ayuda o quieres reportar un error?",
+      "email_btn": "Soporte por Email",
+      "quick_check_title": "Verificación Rápida",
+      "quick_check_desc": "Si el atajo no funciona, verifica conflictos de teclas y confirma que no estén pausados.",
+      "faq_title": "Preguntas Frecuentes",
+      "faq_q1": "¿Cómo configuro un atajo?",
+      "faq_a1": "Abre KeyLaunch, haz clic en una tecla, elige una app y guarda.",
+      "faq_q2": "¿El atajo no funciona?",
+      "faq_a2": "Verifica conflictos de teclas y asegúrate de que no estén pausados.",
+      "footer_label": "Soporte de KeyLaunch"
+    },
+    "marketing": {
+      "pill": "Productividad macOS",
+      "title": "Lanza apps con una tecla.",
+      "lead": "KeyLaunch es un lanzador de teclado rápido y minimalista para macOS. Asigna teclas a tus apps favoritas y entra en tu flujo de trabajo al instante.",
+      "download_btn": "Descargar en Mac App Store",
+      "help_btn": "¿Necesitas Ayuda?",
+      "feature1_title": "Lanzamiento Instantáneo",
+      "feature1_desc": "Abre tus apps más usadas desde el teclado sin buscar en el Dock o Spotlight.",
+      "feature2_title": "Configuración Simple",
+      "feature2_desc": "Elige una tecla, selecciona una app, guarda. Fácil de configurar y ajustar.",
+      "feature3_title": "Diseñado para macOS",
+      "feature3_desc": "Diseñado específicamente para flujos de trabajo en Mac, con una interfaz limpia.",
+      "how_title": "Cómo Funciona",
+      "step1": "Abre KeyLaunch y selecciona una tecla de atajo.",
+      "step2": "Asigna la tecla a la app que desees.",
+      "step3": "Presiona el atajo y lanza al instante.",
+      "footer_label": "KeyLaunch"
+    },
+    "privacy": {
+      "tag": "KeyLaunch",
+      "title": "Política de Privacidad",
+      "date": "Fecha de vigencia: 23 de febrero de 2026",
+      "intro": "KeyLaunch (\"la App\") no recopila ninguna información personal de los usuarios.",
+      "no_collection_title": "Sin Recopilación de Datos",
+      "no_collection_desc": "No se utilizan inicio de sesión, SDKs de análisis, SDKs de publicidad ni tecnologías de rastreo.",
+      "local_title": "Solo Local",
+      "local_desc": "La configuración de atajos se guarda solo en tu Mac. No subimos datos a servidores externos.",
+      "no_sharing_title": "Sin Compartir Datos",
+      "no_sharing_desc": "No vendemos, compartimos ni divulgamos datos de usuarios a terceros.",
+      "contact_title": "Contacto",
+      "contact_desc": "Preguntas sobre privacidad:",
+      "marketing_link": "Página de Producto",
+      "support_link": "Volver a Soporte"
+    }
+  }
+}
